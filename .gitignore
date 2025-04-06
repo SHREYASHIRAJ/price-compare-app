@@ -1,2 +1,33 @@
-# Created by venv; see https://docs.python.org/3/library/venv.html
-*
+# Byte-compiled / cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+venv/
+env/
+ENV/
+.venv/
+
+# Logs and other
+*.log
+*.sqlite3
+*.db
+*.pid
+
+# macOS
+.DS_Store
+
+# VS Code
+.vscode/
+
+# Environment variables
+.env
+
+# Selenium downloads (optional, if any)
+*.crdownload
+
+# Node / frontend junk (in case you ever use npm)
+node_modules/
+dist/
+build/
